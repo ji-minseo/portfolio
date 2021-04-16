@@ -501,7 +501,7 @@ a:hover, a:active {
   padding-top:20px;
 }
 .container img, .container video {
-  width: 30vw;
+  width: 420px;
   border: 1px solid #000;
   margin: 30px;
 }
