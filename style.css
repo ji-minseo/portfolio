@@ -202,12 +202,15 @@ a:hover, a:active {
 
 ::-moz-selection { /* Code for Firefox */
   /* color: #0D45BB; */
-  background: yellow;
+  background: #000;
+  color:#fff;
 }
 
 ::selection {
   /* color: #0D45BB; */
-  background: yellow;
+  background: #000;
+  color:#fff;
+
 }
 
 .flex-vertical {
