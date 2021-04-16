@@ -495,7 +495,7 @@ a:hover, a:active {
   width: 1000px;
   position: absolute;
   top:0;
-  right:5vw;
+  right:0vw;
   /* border-left: 1px solid #000; */
   /* border-right: 1px solid #000; */
   padding-top:20px;
@@ -524,14 +524,14 @@ ul li {
 }
 
 .header-ring {
-  display: none;
+  /* display: none; */
 
   /* background-color: #07FF47; */
   width: 100%;
   position: fixed;
   
-  left: 0;
-  bottom: 2%;
+  right: 0;
+  bottom: 3%;
   /* color: black; */
   letter-spacing: 0.1rem;
   width: 100%;
@@ -540,12 +540,18 @@ ul li {
 
   border-bottom: 1px solid #000; */
   z-index: -1;
-
+  font-size: 65px!important;
+  text-align: right;
 
 }
 .header-ring marquee {
   font-size: 65px!important;
 
+
+}
+.inner {
+  position: relative;
+  left: -97%;
 
 }
 .selected {
