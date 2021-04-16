@@ -15,53 +15,79 @@
 
     <title>seo jimin documents</title>
 </head>
-<body>
+<body class="flex-center">
 
-  <div id="gnb_vertical">   
-    <h1 class="fs-small">seo jimin <br/>archive</h1>
-
-    <br/>  <br/>
-    <div id ="nav">
-      <span class="fs-tiny">bx design</span>
-      <ul>
-
-        <a class="selected" href="index.html"><li>yeseyesee</li></a>
-        <a href="lod.html"><li>losobjetosdecorativos</li></a>
-  
-  
-      </ul>
-  
-      <span class="fs-tiny">uiux design</span>
-      <ul>
-  
-        <a href="chop.html"><li>chopsticksmarket</li></a>
-  
-  
-      </ul>
-  
-      <span class="fs-tiny">graphic design</span>
-      <ul>
-  
-        <a href="lany.html"><li>lany</li></a>
-        <a href="axis.html"><li>axis of horizon</li></a>
-  
-  
-      </ul>
-
-    </div>
-    <span class="fs-tiny">click image to zoom</span>
-
-
+  <div id="gnb">   
+    <img id ="logo2" src ="img/seojimin.gif">
  </div>
+    <div id="under_gnb">   
+      <img id ="logo" src ="img/seojimin.gif">
+   </div>
+
+    <div id ="folder" onclick="folder();"><p>MENU</p></div>
 
 
+    <div class="window win01 vertical">
+      <div class="top">
+        <div class="panel">
+          <span class="first"></span>
+          <span class="second"></span>
+          <span class="third"></span>
+        </div>
+        <div class="nav">
+          <span class="prev active fs-tiny" onclick="folder_pc();">menu</span>
+          <!-- <span class="next"><i class="fa fa-angle-right"></i></span>
+          <span class="set"><i class="fa fa-list-alt"></i></span> -->
+          <!-- <img id ="logo4" src ="img/seojimin.gif"> -->
 
-
+          <span class="address">
+            <input type="text" value="Search" class="address"/ editable="true">
+            <i class="fa fa-refresh"></i>
+          </span>
+          
     
+        </div>
+       
+     
+      </div>
+      
+      
+      <div class="inside flex">
+            <div id ="nav2">
+            
 
-    <div class="container ">
+            <!-- <div  class="folder folder1 flex-center" ><a href="index.html"><p>IKEA mobile ui ux design</p></a></div>
+            <div  class="folder folder1 flex-center" ><a href="index.html"><p>CAVA web ui ux design</p></a></div> -->
+            <div  class="folder folder1 flex-center" ><a href="index.html"><button class="btn">bx web</button></a></div>
 
-      <!-- <div class="margin_bottom"></div> -->
+            <div  class="folder folder1 flex-center" ><a href=".html"><button class="btn">ui / ux</button></a></div>
+            <div  class="folder folder2 flex-center" ><a href="lany.html"><button class="btn btn_active">graphic</button></a></div>
+
+            <!-- <div  class="folder folder3 flex-center" ><a href="index.html"><p>behance</p></a></div> -->
+
+
+
+
+
+      </div>
+      <div id ="nav3">
+            
+
+        <!-- <div  class="folder folder1 flex-center" ><a href="index.html"><p>IKEA mobile ui ux design</p></a></div>
+        <div  class="folder folder1 flex-center" ><a href="index.html"><p>CAVA web ui ux design</p></a></div> -->
+        <div  class="folder folder1 flex-center" ><a href="lany.html"><button class="btn btn_active">lany</button></a></div>
+
+        <div  class="folder folder1 flex-center" ><a href="axis.html"><button class="btn">axis</button></a></div>
+
+
+        <!-- <div  class="folder folder3 flex-center" ><a href="index.html"><p>behance</p></a></div> -->
+
+
+
+
+
+  </div>
+    <div class="thumbs2">
 
       <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/803ea2107915223.5fbe3a73871ed.png" srcset="https://mir-s3-cdn-cf.behance.net/project_modules/disp/803ea2107915223.5fbe3a73871ed.png 600w,https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/803ea2107915223.5fbe3a73871ed.png 1200w,https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/803ea2107915223.5fbe3a73871ed.png 1400w,https://mir-s3-cdn-cf.behance.net/project_modules/fs/803ea2107915223.5fbe3a73871ed.png 1920w," sizes="(max-width: 1920px) 100vw, 1920px"/>
       <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3c586b107915223.5fb4fef073191.gif" srcset="https://mir-s3-cdn-cf.behance.net/project_modules/disp/3c586b107915223.5fb4fef073191.gif 600w,https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3c586b107915223.5fb4fef073191.gif 757w," sizes="(max-width: 757px) 100vw, 757px"/>
@@ -71,20 +97,32 @@
       <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/00422d107915223.5fb3501229f37.png" srcset="https://mir-s3-cdn-cf.behance.net/project_modules/disp/00422d107915223.5fb3501229f37.png 600w,https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/00422d107915223.5fb3501229f37.png 1200w,https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/00422d107915223.5fb3501229f37.png 1400w,https://mir-s3-cdn-cf.behance.net/project_modules/fs/00422d107915223.5fb3501229f37.png 1920w,https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/00422d107915223.5fb3501229f37.png 2800w," sizes="(max-width: 2800px) 100vw, 2800px"/>
       <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/5d96a4107915223.5fbe3a73877df.png" srcset="https://mir-s3-cdn-cf.behance.net/project_modules/disp/5d96a4107915223.5fbe3a73877df.png 600w,https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5d96a4107915223.5fbe3a73877df.png 1200w,https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/5d96a4107915223.5fbe3a73877df.png 1400w,https://mir-s3-cdn-cf.behance.net/project_modules/fs/5d96a4107915223.5fbe3a73877df.png 1920w," sizes="(max-width: 1920px) 100vw, 1920px"/>
       <img src="https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/9c6264107915223.5fb276aca3fac.png" srcset="https://mir-s3-cdn-cf.behance.net/project_modules/disp/9c6264107915223.5fb276aca3fac.png 600w,https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9c6264107915223.5fb276aca3fac.png 1200w,https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/9c6264107915223.5fb276aca3fac.png 1400w,https://mir-s3-cdn-cf.behance.net/project_modules/fs/9c6264107915223.5fb276aca3fac.png 1920w,https://mir-s3-cdn-cf.behance.net/project_modules/2800_opt_1/9c6264107915223.5fb276aca3fac.png 2800w," sizes="(max-width: 2800px) 100vw, 2800px"/>
-
       <div class="margin_bottom"></div>
+
+    </div>
+      
+    </div>
+    
+
+
+      <div class="center flex-vertical">
+
+
+        
+      </div>
+
+      
+
+      
+    </div>
+    <div class="left2 ">
+      <!-- <div  class="folder folder3 flex-center" ><a href="index.html"><p>SEO JIMIN</p></a></div> -->
 
 
     </div>
-    <div class= "header-ring flex-center"><marquee behavior="scroll" direction="left" scrollamount="10" class="fs-small">jijiminseo@gmail.com |	@jijiminseo | @ji-minseo | &copy; seo jimin, all rights reserved</marquee></div>
-
-    <div class="border top"></div>
-    <div class="border bottom"></div>
-    <div class="border left"></div>
-    <div class="border right"></div>
-      
     
 
+      <!-- <div class= "header-ring flex-center"><marquee direction="right" behavior="scroll" direction="left" scrollamount="10" className="fs-p">mail  jijiminseo@gmail.com |	behance  @jijiminseo | github  @ji-minseo | &copy; seo jimin, all rights reserved</marquee></div> -->
 
 
       
