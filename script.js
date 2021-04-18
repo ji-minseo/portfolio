@@ -97,3 +97,28 @@ function folder_pc() {
 
    }
 }
+
+function menu() {
+
+  let elem = document.getElementById('nav');
+  let ht = window.getComputedStyle(elem, null).getPropertyValue("display");
+  console.log(  ht);
+
+
+  if(ht == "block")
+   {
+     
+    document.getElementById("nav").style.display = "none";
+
+    // document.getElementsByClassName("thumbs2")[0].style.marginLeft = '33px';
+
+
+   }
+   else {
+    document.getElementById("nav").style.display = "block";
+
+    // document.getElementsByClassName("thumbs2")[0].style.marginLeft = '0px';
+
+
+   }
+}

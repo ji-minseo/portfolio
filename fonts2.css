@@ -19,6 +19,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap');
+
 body {
   font-family: "Libre Baskerville";
   text-transform:uppercase;
@@ -39,21 +42,22 @@ body {
   /* Font Size */
   
   .fs-tiny, ul li {
-    font-size: 10px;
+    font-size: 7px;
 
     /* font-size: 12px; */
     line-height: 1.3333333333;
   }
   
   .fs-small {
-    font-size: 12px;
+    font-size: 9px;
+    text-decoration: underline;
 
     /* font-size: 14px; */
     line-height: 1.4285714286;
   }
   
   .fs-base {
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.5;
   }
   
