@@ -15,6 +15,15 @@ this.select();
 window.onload = function () {
     // randomObject();
     console.log("hhi");
+
+    var zoom = document.getElementById(zoom);
+
+    img.onclick = function() { 
+      console.log("hhi");
+
+      modal.style.display = "block";
+    }
+    
 }
 
 
@@ -121,4 +130,45 @@ function menu() {
 
 
    }
+}
+
+function modal(num) {
+  var modal = document.getElementsByClassName("myModal")[num];
+
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementsByClassName("myImg")[num];
+  var modalImg = document.getElementsByClassName("img01")[num];
+  
+  modalImg.src = img.src;
+
+    modal.style.display = "block";
+
+  
+  
+  
+}
+
+function closeModal(num) {
+
+  // Get the <span> element that closes the modal
+  var modal = document.getElementsByClassName("myModal")[num];
+
+  var span = document.getElementsByClassName("close")[num];
+  
+  // When the user clicks on <span> (x), close the modal
+    modal.style.display = "none";
+}
+
+function modalVid(num) {
+  var modal = document.getElementsByClassName("myModal")[num];
+
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var vid = document.getElementsByClassName("myImg")[num];
+  var modalImg = document.getElementsByClassName("img01")[num];
+  
+  modalImg.src = vid.src;
+
+    modal.style.display = "block";
+
+
 }
