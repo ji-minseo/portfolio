@@ -18,7 +18,7 @@ window.onload = function () {
 
     var zoom = document.getElementById(zoom);
 
-    img.onclick = function() { 
+    zoom.onclick = function() { 
       console.log("hhi");
 
       modal.style.display = "block";
@@ -171,4 +171,33 @@ function modalVid(num) {
     modal.style.display = "block";
 
 
+}
+
+function zoom() {
+  let imges = document.getElementsByClassName("container")[0].getElementsByTagName("img");
+  let videos = document.getElementsByClassName("container")[0].getElementsByTagName("video");
+
+
+  if(imges[0].style.width == "900px") {
+    for(let i = 0; i < imges.length; i++) {
+      imges[i].style.width = "420px";
+      // imges[i].style.margin = "30px";
+    }
+    for(let i = 0; i < videos.length; i++) {
+      videos[i].style.width = "420px";
+      // videos[i].style.margin = "30px";
+    }
+  }
+  else {
+
+    for(let i = 0; i < imges.length; i++) {
+      imges[i].style.width = "900px";
+      // imges[i].style.margin = "-1px";
+    }
+    for(let i = 0; i < videos.length; i++) {
+      videos[i].style.width = "900px";
+      // videos[i].style.margin = "-1px";
+    }
+  }
+  
 }
